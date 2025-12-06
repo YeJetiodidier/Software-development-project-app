@@ -1,0 +1,13 @@
+const btn=document.getElementsByid("test");
+btn.addEventListener("mousedown",()=>{
+    btn.style.transform="scale(7)";
+});
+btn.addEventListener("mouseup",()=>{
+    btn.style.transform="scale(1)";
+});
+btn.addEventListener("touchstart",()=>{
+    btn.style.transform="scale(7)";
+});
+btn.addEventListener("touchend",()=>{
+    btn.style.transform="scale(1)";
+});
